@@ -22,6 +22,10 @@ const getGoal = (request, response) => {
  * @access Private
  */
 const createGoal = (request, response) => {
+    if ( !request.body.text ) {
+        response.status(400);
+        throw new Error("Please add a text field!");
+    }
     response.status(200).json({ message: "Create a Goal" });
 };
 
