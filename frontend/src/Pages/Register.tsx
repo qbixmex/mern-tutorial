@@ -18,16 +18,17 @@ const Register = () => {
             ...previousState,
             [name]: value
         }));
-    };  
+    };
 
     const onSubmit = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
+        console.table(formData);
     };
 
     return (
         <>
             <section className="heading">
-                <h1><FaUser /> Register</h1>
+                <h1>Register <FaUser /></h1>
 
                 <p>Please create an account!</p>
             </section>
