@@ -9,3 +9,9 @@ This repository is for MERN tutorial.
 NPM `npm run server`
 
 YARN `yarn server`
+
+### Run Client
+
+NPM `npm run client`
+
+YARN `yarn client`
