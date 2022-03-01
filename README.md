@@ -15,3 +15,9 @@ YARN `yarn server`
 NPM `npm run client`
 
 YARN `yarn client`
+
+### Run Server and Client
+
+NPM `npm run dev`
+
+YARN `yarn dev`
